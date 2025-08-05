@@ -1,5 +1,5 @@
 const passwordBox = document.getElementById("password");
-const length = 12;
+const length = 12;//length is constant for all the password
 
 const uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
@@ -27,4 +27,5 @@ function createPassword(){
 function copyPassword(){
     passwordBox.select();
     document.execCommand("copy")
+
 }
