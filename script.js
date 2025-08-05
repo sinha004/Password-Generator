@@ -24,8 +24,9 @@ function createPassword(){
 }
 
 
-function copyPassword(){
+function copyPasswordToClipboard(){
     passwordBox.select();
     document.execCommand("copy")
 
 }
+
